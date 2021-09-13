@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    background: navy;
+    padding: 20px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    display: flex;
+    /* position: sticky; */
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+header a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-size: 1.55vw;
+}
+
+.section-title {
+    color: navy;
+    border-right: 5px solid orange;
+    /* margin-right: 20px; */
+    width: 175px;
+}
+
+/* Jumbotron stlye starts */
+.jumbotron {
+    /* background-image: url( "../public/assets/images/picture-of-trees.jpg"); */
+    background-position: center;
+    height: 233px;
+    display: flex;
+}
+
+.jumbotron img {
+    height: 233px;
+    width: 233px;
+    border-right: navy solid 10px;
+    border-bottom: navy solid 10px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+}
+
+/* Jumbotron style ends */
+
+/* About me style starts */
+.about-me {
+    background: lightgray;
+    display: flex;
+    padding: 25px;
+}
+
+.me-title h2 {
+    vertical-align: top;
+    text-align: right;
+}
+
+.me-text {
+    display: flex;
+    flex: 1;
+    margin: 0 16px 16px 16px
+}
+
+/* About me style ends */
+
+/* My work stle starts */
+.my-work {
+    padding: 25px;
+    display: flex;
+}
+
+.projects {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.main-project {
+    margin: 0 16px 16px 16px;
+    height: 300px;
+    background: orange;
+    /* background-image: url("assets/images/hero-bg.jpg"); */
+    border: 2px solid navy;
+    border-radius: 15px;
+}
+
+.main-project div {
+    background: navy;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.minor-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.row a {
+    flex: 1;
+}
+
+.row div {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    margin: 16px;
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+.row div p {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.minor1 {
+    /* background-image: url("/images/Cinemac_screenshot.PNG"); */
+    background-size: 100%;
+}
+
+.minor2 {
+    /* background-image: url("/images/rmr.PNG"); */
+    background-position: center;
+}
+
+.minor3 {
+    /* background-image: url("/images/Image-of-Binary-Code-1.jpg"); */
+    background-size: 100%;
+}
+
+.minor4 {
+    /* background-image: url("/images/robot-wallpaper-62.jpg"); */
+    background-position: right;
+    background-size: 100%;
+}
+/* My work syle ends */
+
+/* Contact style starts */
+.contact-me {
+    display: flex;
+    padding: 25px;
+    background: lightgray;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    margin: 16px;
+}
+
+.info a {
+    margin: 5px;
+}
+
+.textBoxes {
+    margin: 16px;
+}
+
+input {
+    width: 200px;
+}
+    
+/* Contact style ends */
+
+/* Resume style Starts */
+.resume {
+    display: flex;
+    padding: 25px;
+}
+
+.resume-link {
+    display: flex;
+    margin: 16px;
+}
+/* Resume style Ends */
+
+/* Footer Starts */
+footer {
+    background-color: navy;
+    padding: 10px;
+    color: white;
+}
+/* Footer Ends */
+
+/* query styles starts */
+@media screen and (max-width: 768px) {
+    .section-title {
+        width: 150px;
+        white-space: normal;
+    }
+
+    header nav ul li a {
+        font-size: 23px;
+    }
+
+    .jumbotron {
+        height: 400px;
+    }
+
+    .jumbotron img {
+        border: navy solid 10px;
+        border-bottom-right-radius: 15px;
+        border-radius: 15px;
+        align-items: center;
+        margin: auto;
+        height: 260px;
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section-title {
+        width: 100;
+        font-size: 10px;
+        white-space: normal;
+    }
+
+    header nav ul li a {
+        font-size: 25px;
+    }
+    
+}
