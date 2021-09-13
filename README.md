@@ -16,3 +16,5 @@ This website exersices using React. With react, users can click on the navbar an
 Made by Parker Christiansen for U of U bootcamp
 
 ## Website Images:
+<img width="960" alt="react-capture-1" src="https://user-images.githubusercontent.com/80490941/133164011-9559e03c-8ca2-41c4-8a12-98d183a717f5.PNG">
+<img width="960" alt="react-capture-2" src="https://user-images.githubusercontent.com/80490941/133164037-0e1b2c21-3fa4-463a-8f22-725ae16e02e3.PNG">
